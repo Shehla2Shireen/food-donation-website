@@ -1,0 +1,292 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+    color: #032F46;
+}
+
+body {
+    background-color: #FFFDFD;
+
+    /* background-image: url('images/gym.jpg');
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+#header {
+    background-color: white;
+    z-index: 2;
+    margin-top: -35px;
+    font-size: 35px;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+#link {
+    margin-top: 1em;
+    padding-top: 30px;
+    padding-right: 3%;
+    font-size: 25px;
+    text-align: right;
+}
+
+.link {
+    margin: 10px 15px 10px 0px;
+    text-decoration: none;
+    color: #032F46;
+}
+
+.link:hover {
+    color: #FA8500;
+    text-decoration: none;
+}
+
+.foodtable {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+#ft {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.first {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.image {
+    height: 570px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+#heading1 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: fit-content;
+    text-align: center;
+    margin-left: 40px;
+    transform: translate(-50%, -50%);
+    color: #FA8500;
+    font-family: 'Sarala', 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.tagline {
+    position: absolute;
+    top: 41%;
+    left: 19%;
+    margin: 50px;
+
+    height: fit-content;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #032F46;
+    font-family: 'Sarala', 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+    font-size: 39px;
+}
+
+.description {
+    width: 30%;
+    text-align: justify;
+    margin: 50px;
+    margin-top: 60px;
+    ;
+    top: 57%;
+    left: 16%;
+    font-family: 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#secondpara {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+#btn1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Ubuntu', 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+.Aboutus {
+    margin: 100px 40px 200px 40px;
+    background-color: #FA8500;
+    padding: 0px 10px 20px 10px;
+    border-radius: 15px;
+
+}
+
+.about {
+    padding: 40px 0px 20px 0px;
+    font-size: 40px;
+
+    text-align: center;
+}
+
+.pics {
+    height: 35%;
+    width: 35%;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.pics1 {
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 25px;
+
+}
+
+#btn-join {
+    border-radius: 25px;
+    padding: 5px 23px;
+}
+
+#btn-join:hover {
+    background-color: #FA8500;
+    border-color: #FA8500;
+    padding: 5px 28px;
+}
+
+.partners>div {
+    border: 3px solid black;
+    height: 400px;
+    width: 30%;
+    border-radius: 15px;
+    margin: 12px;
+    margin-left: 20px;
+}
+
+.detail {
+    font-family: 'Ubuntu', 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.form {
+    margin: auto;
+    margin-top: 10px;
+    height: 600px;
+    width: 40%;
+    border: 2px solid grey;
+    text-align: left;
+    background-color: rgb(49, 48, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+#formheading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    padding: 0 7%;
+}
+
+.input {
+    display: block;
+    width: 87%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    display: block;
+
+
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#btn2 {
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
+.footer-bg {
+    background-color: rgb(39, 37, 37);
+    color: wheat;
+
+}
+
+.foodtable {
+    background-color: rgb(39, 37, 37);
+}
+.foodh{
+    color: #FA8500;
+    font-family: 'Sarala', 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+#tableheading{
+    
+    background-color: #FA8500;
+    
+}
+#th{
+    color: #fff;
+}

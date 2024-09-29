@@ -1,0 +1,146 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+
+.login-form-2{
+    padding:50px 100px 30px 100px;
+   
+    background: #f89421;
+    opacity: 100%;
+    border-radius: 25px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+#login-form{
+    padding: 50px 60px;
+    height: fit-content;
+    margin-top: 100px;
+
+}
+
+#signup-form{
+    padding: 50px 60px;
+}
+#signup-heading{
+    margin-bottom: 30px;
+}
+#text-area{
+    border-radius: 20px;
+   
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #ffffff;
+    background-color: #08a5f3;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+    margin: 30px 0 0 125px;
+}
+
+.btnSubmit:hover{
+    color: #fff;
+    background-color: #287DA6;
+}
+
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#032F46;
+}
+
+#header {
+    background-color: white;
+    z-index: 2;
+    margin-top: -35px;
+    font-size: 35px;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+#link {
+    margin-top: 1em;
+    padding-top: 30px;
+    padding-right: 3%;
+    font-size: 25px;
+    text-align: right;
+}
+
+.link {
+    margin: 10px 15px 10px 0px;
+    text-decoration: none;
+    color: #032F46;
+}
+
+.link:hover {
+    color: #FA8500;
+    text-decoration: none;
+    
+}
+
+#btn-join {
+    border-radius: 25px;
+    padding: 5px 23px;
+}
+
+#btn-join:hover{
+    background-color: #FA8500;
+    border-color: #FA8500;
+    padding: 5px 28px;
+}
+
+.first {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.image {
+    height: 570px;
+    width: 100%;
+}
+
+.radio-btn
+{
+    margin: 5px;
+    color: white;
+
+}
+
+/*body
+{
+    background-image: url('images/login-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}*/
