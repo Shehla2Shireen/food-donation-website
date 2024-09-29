@@ -1,0 +1,1 @@
+a website for donors to submit contributions and recipients to request food, with an integrated rider system for food delivery. Utilized PHP and MySQL for the back-end and HTML, CSS, and Bootstrap for front-end development.
